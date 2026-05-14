@@ -1,11 +1,12 @@
 void game() {
   background(background);
+  
   //paddles
   circle(leftx, lefty, leftd);
   circle(rightx, righty, rightd);
   
   //ballball
-  circle(ballx, ball, balld);
+  circle(ballx, bally, balld);
 }
 
 void gameClicks() {

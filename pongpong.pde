@@ -1,5 +1,5 @@
 //colour set up
-color background = #FBEFEF;
+color background = #facdd8;
 color PaleBlush = #FADAD9;
 color LightRose = #F3C3C5;
 color SoftCoralPink = #E9ABAE;
@@ -25,6 +25,7 @@ float ballx, bally, balld;
 
 void setup() {
   size(800, 600);
+  background(background);
   mode = INTRO;
 
 //initalize paddles
